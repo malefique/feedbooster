@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% set blockName = block.name %}
+{% block title %}{{ blockName }}{% endblock %}
+
+
+{% block content %}
+{% include "header_block.html" %}
+<div class="row">
+    <div class="col-xs-12">
+        {{ content.page.status }} <br/> {{ content.page.time }}
+    </div>
+</div>
+
+{% include "footer_block.html" with blockName %}
+
+{% endblock %}
+

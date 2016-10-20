@@ -1,0 +1,32 @@
+{
+  "name": "feedbooster",
+  "version": "0.0.1",
+  "description": "Search, download and upload media from any site to vk",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malefique/feedbooster.git"
+  },
+  "author": "malefique",
+  "license": "MIT",
+  "homepage": "https://github.com/malefique/feedbooster/",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.7",
+    "consolidate": "^0.14.0",
+    "curljs": "^0.1.2",
+    "express": "^4.13.4",
+    "express-validator": "^2.20.3",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.8.0",
+    "mocha": "^3.1.2",
+    "morgan": "^1.7.0",
+    "mysql": "^2.10.2",
+    "nodemailer": "^2.3.2",
+    "swig": "^1.4.2",
+    "swig-email-templates": "^2.0.0",
+    "util": "^0.10.3",
+    "zombie": "^4.2.1"
+  }
+}
